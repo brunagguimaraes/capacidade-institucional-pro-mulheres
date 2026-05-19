@@ -28,35 +28,29 @@ Este projeto de pesquisa se propõe a investigar a expansão, a estagnação ou 
 
 ## Motivação empírica
 
--   Sabido que a violência contra a mulher permanece como problema público persistente, compreender como instituições pró-mulheres estão expandindo ou retraindo de uma forma mensurável e comparável no tempo e no espaço, pode fornecer novos *insights*´ sobre a consolidação da Lei Maria da Penha nos seus 20 anos de vigência do território brasileiro.
+-   A violência contra a mulher permanece como problema público persistente, por isso compreender como instituições pró-mulheres estão expandindo ou retraindo de uma forma mensurável e comparável, no tempo e no espaço, pode fornecer novos *insights* sobre a consolidação da Lei Maria da Penha (LMP) nos seus 20 anos de vigência no território brasileiro.
 
--   Pode, ainda, permitir uma melhor análise do quão heterogenea ocorreu essa expansão institucional no território. A pesquisa quer contribuir para uma demonstração empírica da relação entre o aumento da capacidade institutional e a redução da subnotificação como resultado social da LMP.
+-   Além disso, pode permitir uma melhor análise de quão heterogenea foi, e é, essa expansão institucional. A pesquisa quer contribuir para uma demonstração empírica da relação entre o aumento da capacidade institutional e a redução da subnotificação como resultado social da LMP.
 
 ## Motivação teórica
 
--   Parte-se da ideia que as instituições pró-mulheres são elementos fundamentais no tema “enfrentamento à violência de gênero” pois são estruturas que moldam comportamentos, rotinas e capacidades de resposta estatal para o problema público que, por sua vez, influenciam decisões individuais.
+-   Parte-se da ideia de que as instituições pró-mulheres são elementos fundamentais para o enfrentamento à violência de gênero, pois constituem estruturas que moldam comportamentos, rotinas e capacidades de resposta estatal frente a esse problema público, influenciando, por sua vez, as decisões individuais.
 
--   Essas estruturas formais possuem um escopo e finalidade diversos, mas na grande parte das vezes são personificadas como um dos serviços especializados previstos na LMP ou em outras leis estaduais tais como: delegacias especiais, centros de atentimento, juizados, promotorias de justiça, casas de acolhimento, centros de saúde, políticas públicas e programas específicos.
+-   Essas estruturas formais possuem escopo e finalidades diversos. Na maior parte das vezes, personificam-se nos serviços especializados previstos na LMP ou em leis estaduais, tais como: delegacias especializadas, centros de atendimento, juizados, promotorias de justiça, casas de acolhimento e centros de saúde, além de políticas públicas e programas específicos.
 
--   A diversidade institucional quanto à natureza dessas estruturas justifica um olhar sobre a tendência da capacidade estatal.
+A diversidade institucional quanto à natureza dessas estruturas justifica um olhar aprofundado sobre a tendência da capacidade estatal.
 
 ## Literatura base
 
--   Institucionalismo histórico - Peter A. Hall (1991), Dimaggio, Paul. J; Powell, Walter (1991), Thelen, Kathleen; Steinmo, Sven(1992):
-
-    -   discutir sobre o que são instituições, a persistência estrutural e institucional, legitimidade e resultados sociais e políticos das estruturas estatais;
-
--   Capacidades estatais e institucionalização de políticas públicas - Gomide, Alexandre de Ávila Pires, Roberto Rocha Coelho(2014)):
-
-    -   apresentar a discussão sobre a capacidade do estado de implementar políticas públicas em contexto institucional democrático, ambientes e arranjos institucionais;
-
--   Instituições pró-mulheres, Women’s Policy Agencies e State Feminism - Franceschet (2010); Gomes & Avellaneda (2021); Gomes et al(2025):
-
-    -   apresentar e conceituar as instituições pró-mulheres em uma pespectiva mundial , discutir seus efeitos sociais;
-
--   Estudos sobre subnotificação e registros de violência de gênero (revisão sistemática de literatura);
-
--   Indicadores como ferramentas para investigação acadêmica de mudança e determinantes dos fenômenos sociais (Jannuzzi, 2005).
+-   Institucionalismo histórico — Hall (1991), DiMaggio e Powell (1991), Steinmo, Thelen e Longstreth (1992):
+    -   Definição de instituições, persistência estrutural, legitimidade e impactos sociais e políticos das estruturas estatais.
+-   Capacidades estatais e institucionalização de políticas públicas — Gomide e Pires (2014):
+    -   Análise sobre a capacidade do Estado de implementar políticas públicas em contextos democráticos, ambientes e arranjos institucionais.
+-   Instituições pró-mulheres, Women’s Policy Agencies e State Feminism — Franceschet (2010), Gomes e Avellaneda (2021) e Gomes et al. (2025):
+    -   Conceituação das instituições pró-mulheres em perspectiva mundial e discussão sobre seus efeitos sociais.
+-   Estudos sobre subnotificação e registros de violência de gênero (realização de revisão sistemática da literatura)
+-   Indicadores sociais (Jannuzzi, 2005):
+    -   Ferramentas para a investigação acadêmica sobre mudanças e determinantes dos fenômenos sociais.
 
 ```{r, include = FALSE}
 #| include: false
