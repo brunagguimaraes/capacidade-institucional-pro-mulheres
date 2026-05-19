@@ -1,0 +1,26 @@
+/* Ajustar margem superior dos headers */
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 60px;  /* Ajuste este valor conforme preferir */
+}
+
+/* Reduzir tamanho da fonte dos headers */
+.reveal h1 {
+  font-size: 1.5em !important;
+  margin-top: 40px !important;
+}
+
+.reveal h2 {
+  font-size: 1.2em !important;
+  margin-top: 30px !important;
+}
+
+/* Ajustar o título principal */
+.reveal .title {
+  font-size: 1.8em !important;
+  margin-top: 100px !important;
+}
+
+/* Ajustar parágrafos e listas */
+.reveal p, .reveal li {
+  font-size: 0.9em;
+}
