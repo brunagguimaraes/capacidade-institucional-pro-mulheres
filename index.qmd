@@ -7,6 +7,8 @@ number-sections: true
 
 format:
   revealjs:
+    self-contained: true 
+    embed-resources: true
     theme: simple
     css: style.css
     slide-number: true
