@@ -1,6 +1,5 @@
 ---
 title: "Capacidade institucional no enfrentamento à violência de gênero"
-subtitle: "Um índice sintético temporal"
 author: "Bruna Gomes Guimarães"
 date: "today"
 number-sections: true
@@ -20,46 +19,59 @@ format:
 editor: visual
 ---
 
-# **A pesquisa**
+A pesquisa
 
 Este projeto de pesquisa se propõe a investigar a expansão, a estagnação ou a retração de instituições pró-mulheres e seus efeitos no enfrentamento à violência de gênero, por isso busca responder a seguinte questão de pesquisa:
 
--   **Qual é o efeito da capacidade institucional pró-mulheres sobre as taxas de violência de gênero?**
+Qual é o efeito da capacidade institucional pró-mulheres sobre as taxas de violência de gênero?
 
-## Motivação empírica
+Motivação empírica
 
--   A violência contra a mulher permanece como problema público persistente, por isso compreender como instituições pró-mulheres estão expandindo ou retraindo de uma forma mensurável e comparável, no tempo e no espaço, pode fornecer novos *insights* sobre a consolidação da Lei Maria da Penha (LMP) nos seus 20 anos de vigência no território brasileiro.
+• A violência contra mulheres mantém dinâmica persistente no Brasil.
 
--   Além disso, pode permitir uma melhor análise de quão heterogenea foi, e é, essa expansão institucional. A pesquisa quer contribuir para uma demonstração empírica da relação entre o aumento da capacidade institutional e a redução da subnotificação como resultado social da LMP.
+• Embora os homicídios gerais apresentem tendência de queda, entre as mulheres essa redução ocorre de forma mais lenta e menos expressiva.
 
-## Motivação teórica
+• Esse padrão sugere que a violência de gênero possui dinâmica própria e não responde necessariamente da mesma forma às políticas gerais de segurança pública.
 
--   Parte-se da ideia de que as instituições pró-mulheres são elementos fundamentais para o enfrentamento à violência de gênero, pois constituem estruturas que moldam comportamentos, rotinas e capacidades de resposta estatal frente a esse problema público, influenciando, por sua vez, as decisões individuais.
+• Paralelamente, as últimas décadas foram marcadas pela expansão de instituições e políticas pró-mulheres nos municípios brasileiros.
 
--   Essas estruturas formais possuem escopo e finalidades diversos. Na maior parte das vezes, personificam-se nos serviços especializados previstos na LMP ou em leis estaduais, tais como: delegacias especializadas, centros de atendimento, juizados, promotorias de justiça, casas de acolhimento e centros de saúde, além de políticas públicas e programas específicos.
+• Dados da MUNIC/IBGE mostram crescimento de organismos executivos, conselhos, planos e serviços especializados voltados às mulheres, embora distribuídos de forma desigual no território.
+
+A pesquisa pode permitir uma melhor análise de quão heterogenea foi, e é, essa expansão institucional e pretende contribuir em uma discussão sobre a compreensão dos efeitos da expansão institucional.
+
+Motivação teórica
+
+Parte-se da ideia de que as instituições pró-mulheres são elementos fundamentais para o enfrentamento à violência de gênero, pois constituem estruturas que moldam comportamentos, rotinas e capacidades de resposta estatal frente a esse problema público, influenciando, por sua vez, as decisões individuais.
+
+Essas estruturas formais possuem escopo e finalidades diversos. Na maior parte das vezes, personificam-se nos serviços especializados previstos na LMP ou em leis estaduais, tais como: delegacias especializadas, centros de atendimento, juizados, promotorias de justiça, casas de acolhimento e centros de saúde, além de políticas públicas e programas específicos.
 
 A diversidade institucional quanto à natureza dessas estruturas justifica um olhar aprofundado sobre a tendência da capacidade estatal.
 
-## Literatura base
+Literatura base
 
--   Institucionalismo histórico — Hall (1991), DiMaggio e Powell (1991), Steinmo, Thelen e Longstreth (1992):
-    -   Definição de instituições, persistência estrutural, legitimidade e impactos sociais e políticos das estruturas estatais.
--   Capacidades estatais e institucionalização de políticas públicas — Gomide e Pires (2014):
-    -   Análise sobre a capacidade do Estado de implementar políticas públicas em contextos democráticos, ambientes e arranjos institucionais.
--   Instituições pró-mulheres, Women’s Policy Agencies e State Feminism — Franceschet (2010), Gomes e Avellaneda (2021) e Gomes et al. (2025):
-    -   Conceituação das instituições pró-mulheres em perspectiva mundial e discussão sobre seus efeitos sociais.
--   Estudos sobre subnotificação e registros de violência de gênero (realização de revisão sistemática da literatura)
--   Indicadores sociais (Jannuzzi, 2005):
-    -   Ferramentas para a investigação acadêmica sobre mudanças e determinantes dos fenômenos sociais.
+Institucionalismo histórico — Hall (1991), DiMaggio e Powell (1991), Steinmo, Thelen e Longstreth (1992):
 
-```{r, include = FALSE}
+Definição de instituições, persistência estrutural, legitimidade e impactos sociais e políticos das estruturas estatais.
+
+Capacidades estatais e institucionalização de políticas públicas — Gomide e Pires (2014):
+
+Análise sobre a capacidade do Estado de implementar políticas públicas em contextos democráticos, ambientes e arranjos institucionais.
+
+Instituições pró-mulheres, Women’s Policy Agencies e State Feminism — Franceschet (2010), Gomes e Avellaneda (2021) e Gomes et al. (2025):
+
+Conceituação das instituições pró-mulheres em perspectiva mundial e discussão sobre seus efeitos sociais.
+
+Estudos sobre subnotificação e registros de violência de gênero (realização de revisão sistemática da literatura)
+
+Indicadores sociais (Jannuzzi, 2005):
+
+Ferramentas para a investigação acadêmica sobre mudanças e determinantes dos fenômenos sociais.
+
+{r, include = FALSE}
 #| include: false
 pacman::p_load(readxl, knitr, dplyr, tidyr, ggplot2, ggstatsplot, scales, kableExtra, stringr)
-```
 
-------------------------------------------------------------------------
-
-```{r}
+{r}
 #| echo: false
 #| column: screen
 #| out-width: 100%
@@ -132,97 +144,89 @@ ggplot(
     
     legend.position = "right"
   )
-```
 
-# Hipóteses
+Hipóteses
 
--   **H1a:** quanto maior a capacidade institucional pró-mulheres, maior a tendência de aumento da violência registrada, associada à redução da subnotificação.
+H1a: quanto maior a capacidade institucional pró-mulheres, maior a tendência de aumento da violência registrada, associada à redução da subnotificação.
 
--   **H1b:** no longo prazo, maiores níveis de capacidade institucional tendem a estar associados à redução da incidência da violência de gênero.
+H1b: no longo prazo, maiores níveis de capacidade institucional tendem a estar associados à redução da incidência da violência de gênero.
 
--   **H2:** instituições de segurança pública e justiça tendem a produzir efeitos mais significativos do que estruturas de outras naturezas.
+H2: instituições de segurança pública e justiça tendem a produzir efeitos mais significativos do que estruturas de outras naturezas.
 
-# Objetivos
+Objetivos
 
--   **Geral:** construir um índice sintético temporal de capacidade institucional pró-mulheres e investigar seus efeitos sobre taxas de violência de gênero.
+Geral: construir um índice sintético temporal de capacidade institucional pró-mulheres e investigar seus efeitos sobre taxas de violência de gênero.
 
-    -   Identificar instituições pró-mulheres implantadas desde 2007;
+Identificar instituições pró-mulheres implantadas desde 2007;
 
-    -   Construir um índice sintético temporal de capacidade institucional;
+Construir um índice sintético temporal de capacidade institucional;
 
-    -   Examinar a expansão desigual entre áreas institucionais;
+Examinar a expansão desigual entre áreas institucionais;
 
-    -   Consolidar indicadores de violência letal e não letal;
+Consolidar indicadores de violência letal e não letal;
 
-    -   Estimar o efeito do índice sobre os indicadores de violência.
+Estimar o efeito do índice sobre os indicadores de violência.
 
-# Metodologia
+Metodologia
 
-## Tipo de pesquisa
+Tipo de pesquisa
 
--   Quantitativa
+Quantitativa
 
--   Observacional
+Observacional
 
--   Longitudinal
+Longitudinal
 
--   Dados em painel município-ano
+Dados em painel município-ano
 
-## Variável independente
+Variável independente
 
--   Índice de capacidade institucional pró-mulheres
+Índice de capacidade institucional pró-mulheres
 
--   Construído a partir de variáveis binárias de presença/ausência de instituições, políticas e serviços[^1]
+Construído a partir de variáveis binárias de presença/ausência ou cobertura institucional[^Grande parte do arcabouço institucional da Lei Maria da Penha é operacionalizado pelos estados; Muitas instituições possuem localização física em um município, mas cobertura regional sobre vários territórios.]
 
-[^1]: Destaca-se que o arcabouço institucional previsto na LMP é principalmente gerenciado pela estrutura estadual. Logo muitas instituições estão localizadas em um território, mas possem uma cobertura para atendimentos de mais territórios/municípios.
+Variável dependente
 
-## Variável dependente
+Violência não letal registrada
 
--   Violência não letal registrada[^2]
+Violência doméstica estupro importunação sexual outros registros disponíveis
 
--   violência doméstica estupro importunação sexual outros registros disponíveis
+Violência letal
 
--   Violência letal
+Homicídios de mulheres
 
--   homicídios de mulheres
-
--   feminicídios
-
-[^2]: A depender da disponibilidade dos dados abertos dos tipos de violência
+Feminicídios [^Dados abertos a partir de 2018]
 
 Os indicadores de violência serão normalizados por taxas populacionais, buscando garantir comparabilidade entre municípios com diferentes tamanhos demográficos.
 
 Pensar em uma normalização por população feminina.
 
-## Casos
+Casos
 
--   Minas Gerais: 853 municípios
+Minas Gerais: 853 municípios
 
--   São Paulo: 645 municípios
+São Paulo: 645 municípios
 
--   Período: 2007 a 2024
+Período: 2007 a 2024
 
-## Coleta
+Coleta
 
--   Dados secundários: MUNIC, Fundação João Pinheiro, DATASUS, SSPs.
+Dados secundários: MUNIC, Fundação João Pinheiro, DATASUS, SSPs.
 
--   Dados primários: solicitações via Lei de Acesso à Informação.
+Dados primários: solicitações via Lei de Acesso à Informação.
 
--   Estruturação em banco longitudinal.
+Estruturação em banco longitudinal.
 
-## Exemplo da estrutura do banco com um município
+Exemplo da estrutura do banco com um município
 
-```{r}
+{r}
 #| echo: false
 library(DT)
 dados <- read_xlsx("df_bh.xlsx")
 
 datatable(dados, filter = "top")
-```
 
-------------------------------------------------------------------------
-
-```{r}
+{r}
 #| echo: false
 #| column: screen
 #| out-width: 100%
@@ -250,11 +254,30 @@ ggplot(dados_long, aes(x = ano, y = instituicao, fill = factor(presenca))) +
     x = "Ano",
     y = "Instituição"
   )
-```
 
-------------------------------------------------------------------------
+Legenda
 
-```{r}
+trajeto_moda: programa da Subsecretaria de Inclusão Produtiva, Trabalho, Emprego e Renda com o objetivo de promover a inclusão produtiva e geração de renda de mulheres em situação de vulnerabilidade.
+
+sima : Sistema Integrado de Monitoramento e Avaliação em Direitos Humanos – SIMA Mulher – 2020 - atendimento e acompanhamento online
+
+tjmg – Juizados Especiais de Violência Doméstica e Familiar contra a Mulher
+
+pavmp – Programas de Atenção à Violência (PAVs)
+
+mpmg – Promotorias Especializadas
+
+dpmg - Núcleos da Mulher nas Defensorias Públicas
+
+deam - Delegacias Especializadas de Atendimento à Mulher
+
+creas - Centros de Referência Especializado de Assistência Social
+
+cmdm – Conselho Municipal dos Direitos das Mulheres
+
+cerna: Centro Risoleta Neves de atendimento às mulheres
+
+{r}
 #| echo: false
 #| column: screen
 #| out-width: 80%
@@ -295,27 +318,26 @@ df_plot %>%
     legend.title = element_text(face = "bold"),
     panel.grid.minor = element_blank()
   )
-```
 
-# Técnicas de análise
+Técnicas de análise
 
-**Construção do índice:**
+Construção do índice:
 
--   Análise de Componentes Principais — PCA
+Análise de Componentes Principais — PCA
 
--   Possível uso de Análise de Correspondência, caso a natureza categórica dos dados recomende
+Possível uso de Análise de Correspondência ou Teoria de Resposta ao Item, caso a natureza categórica dos dados recomende
 
-**Modelos econométricos para identificar efeito/impacto:**
+Modelos econométricos para identificar efeito/impacto:
 
--   Painel com efeitos fixos municipais e temporais
+Painel com efeitos fixos municipais e temporais
 
--   Efeitos aleatórios para comparação
+Efeitos aleatórios para comparação
 
--   Modelos com defasagens temporais
+Modelos com defasagens temporais
 
--   Poisson ou binomial negativa se a variável dependente for contagem
+Poisson ou binomial negativa se a variável dependente for contagem
 
-## Modelo para violência não letal
+Modelo para violência não letal
 
 $$
 Y_{it}^{NL} =
@@ -329,7 +351,7 @@ $$
 
 Se espera que maior uma capacidade institucional pode elevar registros oficiais em razão da redução da subnotificação.
 
-## Modelo para violência letal
+Modelo para violência letal
 
 $$
 Y_{it}^{L} =
@@ -343,9 +365,7 @@ $$
 
 No médio e longo prazo, maior capacidade institucional pode reduzir a incidência da violência letal.
 
-------------------------------------------------------------------------
-
-## Legenda
+Legenda
 
 $$
 \begin{align*}
@@ -360,12 +380,28 @@ k &= \text{Defasagem temporal}
 \end{align*}
 $$
 
-# Contribuições
+Limitações
 
--   Construção de índice sintético temporal.
--   Sistematização de dados municipais em formato longitudinal.
--   Diferenciação dos impactos entre violência letal e não letal.
--   Discussão sobre a redução da subnotificação como mecanismo institucional.
--   Contribuição para avaliação de políticas públicas de enfrentamento à violência de gênero.
+Capacidade institucional medida em presença/ausência deixa de fora informações sobre funcionamento e qualidade;
 
-# Obrigada!
+Recorte da seleção de casos impacta na generalização;
+
+As diferenças entre os estados analisados na divulgação da violência não letal: isso afeta comparabilidade, longitudinalidade e padronização;
+
+Endogeneidade: capacidade institucional e violência podem se influenciar mutuamente -> efeitos fixos municipais permite controlar características não observadas e constantes
+no tempo que podem estar correlacionadas tanto com a capacidade institucional quanto com os indicadores de violência; 
+
+Contribuições
+
+Construção de índice sintético temporal.
+
+Sistematização de dados municipais em formato longitudinal.
+
+Diferenciação dos impactos entre violência letal e não letal.
+
+Discussão sobre a redução da subnotificação como mecanismo institucional.
+
+Contribuição para avaliação de políticas públicas de enfrentamento à violência de gênero.
+
+Obrigada!
+
